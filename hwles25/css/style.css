@@ -1,0 +1,70 @@
+.balk {
+  height: 50px;
+  background-color: #76181d;
+  color: white;
+  text-align: center;
+}
+
+.balk a {
+  color: white;
+}
+
+.btn {
+  background-color: #a82229;
+
+}
+
+img {
+width: 100%;
+padding: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+  font-size: 18px;
+    text-align: justify;
+}
+
+h1, h2 {
+  color: #a82229;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#accordion .ui-accordion-header {
+  background-color: #a82229;
+  color: white;
+  margin-bottom: 5px;
+  border: white;
+}
+#balk {
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+#boven {
+  background-image: url("../afbeeldingen/towerbridge2.JPG");
+  height: 500px;
+  width: auto;
+  max-width: 100%;
+  background-size: cover;
+  color: #a82229;
+  padding: 10px;
+  font-size: auto;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  text-align: justify;
+}
+@media only screen and (min-width: 600px) {
+#boven {
+  background-image: url("../afbeeldingen/stpaul.JPG");
+  height: 500px;
+  width: auto;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 10px;
+  font-size: auto;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: justify;
+}
+}
